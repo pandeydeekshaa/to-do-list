@@ -1,0 +1,49 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    color: #333;
+}
+
+input[type="text"] {
+    size: 30px;
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #190606;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+.backvideo{
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+  @media (min-aspect-ratio: 16/9){
+    .backvideo{
+      width: 100%;
+      height: auto;
+    }
+  }
